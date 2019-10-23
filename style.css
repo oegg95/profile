@@ -1,0 +1,92 @@
+body {
+  background-color: #b3d2b2;
+}
+
+.header {
+  width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0, 0, 15px grey;
+}
+
+h1 {
+  color: #545f66;
+  font-size: 30px;
+  f
+}
+
+img {
+  width: 150px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+h2 {
+  color: #829399;
+  font-size: 20px;
+}
+
+p {
+  color: #aaacb0;
+  font-size: 15px;
+}
+
+.footer {
+  width: 600px;
+  margin: 10px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0, 0, 15px grey
+}
+
+h3 {
+  color: #829399;
+  font-size: 15px;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.sm:hover {
+  color: black;
+}
+
+.sm {
+  color: #829399;
+  transition: 300ms ease;
+}
+.picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .header, .footer {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .header, .footer {
+    width: 300px;
+  }
+}
